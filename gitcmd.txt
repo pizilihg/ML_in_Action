@@ -1,0 +1,6 @@
+
+删除远程仓库已经提交的文件夹target：
+
+git rm -r --cached target
+git commit -m "delete target/"
+git push origin master
